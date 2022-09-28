@@ -18,7 +18,7 @@ Challenges and Results
 - SVG Imports with <mat-icon>, MatIconRegistry, DomSanitizer
 - Pure Css structure & animations
 - Clean semantic commit history
-- Fully responsive design, compatible view with every mobile viewport
+- Fully responsive design, compatible view with every mobile viewport - rem relative lengths
   
 Technologies
 - Angular (HTML, Typescript, CSS)
