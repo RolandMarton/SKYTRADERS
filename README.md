@@ -8,7 +8,7 @@ This task is about creating a multi-language website implemented in Angular runn
 
 # Development - Day 1
 
-https://user-images.githubusercontent.com/88943189/192878725-2e43827c-e2d1-47ac-983f-45270ccad388.mp4
+https://user-images.githubusercontent.com/88943189/192888717-4d7086ef-a99e-43a4-9a3b-9b88d33cbe82.mp4
 
 Challenges and Results
 - Angular Project initalization for future development process (smart/dumb components, testing, routing etc)
