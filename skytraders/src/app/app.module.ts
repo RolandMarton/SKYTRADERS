@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from "./components/header/header.component";
-import { NavbarComponent } from "./components/navbar/navbar.component";
-import { HeaderContentComponent } from './components/header-content/header-content.component';
+import { NavbarComponent } from "./components/header/navbar/navbar.component";
+import { HeaderContentComponent } from './components/header/header-content/header-content.component';
 
 @NgModule({
   declarations: [
