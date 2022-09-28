@@ -1,4 +1,101 @@
-.primary-header {
-  color: #FFFFFF;
+/*----- Component Transformations -----*/
 
+.header-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-spacing: .125rem;
+  width: fit-content;
+  margin: auto;
+}
+
+.header-container {
+  margin: 2rem;
+}
+
+.button-container {
+  padding: 2rem 5rem 2rem;
+  background-color: rgba(190, 195, 200, 0.4);
+  border-radius: 2rem;
+  margin: 2rem;
+}
+
+.country-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5rem;
+}
+
+.country-container > p {
+  font-size: .75rem;
+  backdrop-filter: blur(1em);
+  border-radius: .5rem;
+}
+
+/*----- Component Elements Transformations -----*/
+
+.primary-header {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.sub-header {
+  font-weight: 400;
+}
+
+.primary-header,
+.sub-header {
+  backdrop-filter: blur(.125rem);
+  border-radius: .75rem;
+}
+
+#header-container-subheader {
+  padding: .5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+#header-content-button {
+  margin: 1.5rem;
+  background-color: #9CCC3C;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: .5rem;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
+
+#button-link {
+  text-decoration: none;
+  color: #2C2B30;
+}
+
+#header-content-button:hover,
+#header-content-button:focus{
+  color: #001F3F;
+  background-color: #fff;
+}
+
+#button-container-subheader {
+  line-height: 1rem;
+  padding: .5rem;
+}
+
+.button-container-paragraph {
+  font-size: .75rem;
+}
+
+.ellipse {
+  width: 4px;
+}
+
+/*----- Icon or SVG transformations -----*/
+
+#heartIcon {
+  display: inline-flex;
 }

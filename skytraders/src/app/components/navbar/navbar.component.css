@@ -1,12 +1,6 @@
-/*Component Transformations*/
+/*----- Component Transformations -----*/
 
 .navbar {
-  color: #FFFFFF;
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-
   display: flex;
   justify-content: space-between;
   width: auto;
@@ -31,6 +25,7 @@
 }
 .logoFlexElements > p {
   text-transform: uppercase;
+  font-size: .75rem;
 }
 
 .languageDropDown {
@@ -59,6 +54,7 @@ li > a,
 .languageDropDown,
 .logoFlexElements > p {
   backdrop-filter: blur(0.25em);
+  border-radius: .75rem;
 }
 
 .nav-link {
@@ -94,7 +90,6 @@ li > a,
 .ellipse {
   width: 4px;
 }
-
 
 /*----- Media Querys for Responsive Layout -----*/
 @media only screen and (max-width: 1250px) {
