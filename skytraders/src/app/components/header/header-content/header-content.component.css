@@ -8,6 +8,7 @@
   word-spacing: .125rem;
   width: fit-content;
   margin: auto;
+  word-break: break-word;
 }
 
 .header-container {
@@ -126,10 +127,10 @@
   white-space: nowrap;
   border-right: .15em solid #9CCC3C;
   margin: 0 auto;
-  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+  animation: typewriting 3.5s steps(30, end), blink-caret .5s step-end infinite;
 }
 
-@keyframes typing {
+@keyframes typewriting {
   from { width: 0 }
   to { width: 100% }
 }
