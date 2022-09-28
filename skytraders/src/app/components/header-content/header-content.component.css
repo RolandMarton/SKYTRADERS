@@ -40,6 +40,7 @@
 .primary-header {
   font-size: 2.5rem;
   font-weight: 400;
+  position: relative;
 }
 
 .sub-header {
@@ -99,3 +100,68 @@
 #heartIcon {
   display: inline-flex;
 }
+
+/*----- Animation for Text -----*/
+
+/* FadeIn */
+
+#header-container-subheader {
+  animation: fadeInUp 2s ease;
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(3rem);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*Custom TypeWriting - Not working yet*/
+
+/*.primary-header::before,*/
+/*.primary-header::after {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*}*/
+
+/*.primary-header {*/
+/*  background: #000000;*/
+/*  padding: 10px;*/
+
+/*}*/
+
+/*.primary-header::before {*/
+/*  background: #000000;*/
+/*  z-index: 1;*/
+/*  animation: typewriting 4s steps(30) forwards;*/
+/*}*/
+
+/*.primary-header::after {*/
+/*  width: 0.125em;*/
+/*  background: black;*/
+/*  animation: typewriter 6s steps(30) forwards;*/
+/*}*/
+
+/*.primary-header::after {*/
+/*  width: 0.125em;*/
+/*}*/
+
+/*@keyframes typewriting {*/
+/*  to {*/
+/*    left: 100%;*/
+/*  }*/
+/*}*/
