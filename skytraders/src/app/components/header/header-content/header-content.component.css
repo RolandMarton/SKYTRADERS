@@ -145,5 +145,7 @@
     animation: none;
     white-space: normal;
     border: none;
+    display: flex;
+    align-items: center;
   }
 }
