@@ -1,8 +1,83 @@
+/*Component Transformations*/
+
 .navbar {
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+
   display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 1rem 5rem;
+}
+
+/*----- Flex Elements Transformations -----*/
+
+.navbarElements {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+  padding: 1rem;
+  gap: 3rem;
+  list-style-type: none;
+}
+
+.logoFlexElements {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logoFlexElements > p {
+  text-transform: uppercase;
 }
 
 .languageDropDown {
-  padding: 0;
-  margin: 0;
+  display: flex;
+  gap: 0.2rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+li > a,
+.languageDropDown,
+.logoFlexElements > p {
+  backdrop-filter: blur(0.75em);
+}
+
+select {
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+
+/*!*----- Icon or SVG transformations -----*!*/
+
+.ellipse {
+  width: 4px;
+}
+
+
+/*----- Media Querys for Responsive Layout -----*/
+@media only screen and (max-width: 1250px) {
+  .navbar {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #languageIcon {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbarElements {
+    flex-direction: column;
+    align-items: center;
+  }
 }

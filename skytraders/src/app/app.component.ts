@@ -10,10 +10,9 @@ import { DomSanitizer } from "@angular/platform-browser";
 export class AppComponent {
 
   constructor( private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
-    this.matIconRegistry.addSvgIcon(
-      "EN_Icon",
-      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/svg/Country icons.svg")
-    );
+    this.matIconRegistry.addSvgIcon("EN_Icon", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Country icons.svg"));
+    this.matIconRegistry.addSvgIcon("Logo", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Logo.svg"));
+    this.matIconRegistry.addSvgIcon("Ellipse", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Ellipse.svg"));
   }
 
 }

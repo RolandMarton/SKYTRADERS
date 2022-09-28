@@ -1,12 +1,33 @@
 <nav class="navbar">
-  <div class="languageDropDown">
-    <label for="languages"><mat-icon svgIcon="EN_Icon"></mat-icon></label>
-
-    <select name="languages" id="languages">
-      <option value="english">EN</option>
-      <option value="hungarian">HU</option>
-    </select>
-  </div>
+  <ul class="navbarElements">
+    <div  class="languageDropDown">
+      <li id="languageIcon">
+        <mat-icon svgIcon="EN_Icon"></mat-icon>
+      </li>
+      <li>
+        <label for="languages"></label>
+        <select name="languages" id="languages">
+          <option value="english">EN</option>
+        </select>
+      </li>
+    </div>
+    <li><a href="/skytraders/src">Home</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Testimonials</a></li>
+    <li><a href="#">Get Started</a></li>
+    <li><a href="#">FAQs</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+    <div id="logoContainer">
+      <mat-icon svgIcon="Logo" style="width: 310px; height: 40px;"></mat-icon>
+      <div class="logoFlexElements">
+        <p>Connect</p>
+        <mat-icon class="ellipse" svgIcon="Ellipse"></mat-icon>
+        <p>Collaborate</p>
+        <mat-icon class="ellipse" svgIcon="Ellipse"></mat-icon>
+        <p>Trade</p>
+      </div>
+    </div>
 </nav>
 
 
