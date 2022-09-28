@@ -36,6 +36,17 @@
 .languageDropDown {
   display: flex;
   gap: 0.2rem;
+  margin: auto;
+}
+
+select {
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+
+#logoContainer {
+  margin: 1rem 0;
 }
 
 li > a {
@@ -43,16 +54,39 @@ li > a {
   color: #FFFFFF;
 }
 
+
 li > a,
 .languageDropDown,
 .logoFlexElements > p {
-  backdrop-filter: blur(0.75em);
+  backdrop-filter: blur(0.25em);
 }
 
-select {
-  border: none;
-  color: white;
-  background-color: transparent;
+.nav-link {
+  padding: 1rem 0;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 0.75;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #FFFFFF;
+}
+
+.nav-link-fade-in::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-fade-in:hover::before {
+  width: 100%;
 }
 
 /*!*----- Icon or SVG transformations -----*!*/

@@ -13,6 +13,8 @@ export class AppComponent {
     this.matIconRegistry.addSvgIcon("EN_Icon", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Country icons.svg"));
     this.matIconRegistry.addSvgIcon("Logo", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Logo.svg"));
     this.matIconRegistry.addSvgIcon("Ellipse", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Ellipse.svg"));
+    this.matIconRegistry.addSvgIcon("Heart", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Heart.svg"));
+
   }
 
 }
