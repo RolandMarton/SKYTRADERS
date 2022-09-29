@@ -45,6 +45,7 @@ Challenges and Results
 - Clean Code: Refactor code duplications, categorising components, files, code
 - Semantic Commit Messages
 
-# Final Version of the Page - Making the foundations solid and secure for development in the future - Routes, Tests, Imports, Reusable Components (Dummy, Smart Components) etc.
+# Final Version of the Page
+Making the foundations solid and secure for development in the future - Routes, Tests, Imports, Reusable Components (Dummy, Smart Components) etc.
   
 ![Skytraders - V3](https://user-images.githubusercontent.com/88943189/193121003-9bb9bab2-f4aa-49c0-b50e-0f17d7bcc77b.png)
