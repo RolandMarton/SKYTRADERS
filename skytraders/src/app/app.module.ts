@@ -10,6 +10,8 @@ import { NavbarComponent } from "./components/header/navbar/navbar.component";
 import { HeaderContentComponent } from './components/header/header-content/header-content.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { NavLinksComponent } from './components/nav-links/nav-links.component';
+import { LanguageDropDownComponent } from './components/language-drop-down/language-drop-down.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { LogoComponent } from './components/logo/logo.component';
     HeaderContentComponent,
     FooterComponent,
     LogoComponent,
+    NavLinksComponent,
+    LanguageDropDownComponent,
   ],
   imports: [
     BrowserModule,

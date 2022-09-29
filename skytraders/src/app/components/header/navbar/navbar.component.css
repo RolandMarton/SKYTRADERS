@@ -12,67 +12,14 @@
 .navbarElements {
   display: flex;
   justify-content: flex-start;
-  margin: 1rem;
-  padding: 1rem;
+  margin: .4rem;
+  padding: .4rem;
   gap: 3rem;
   list-style-type: none;
 }
 
-.languageDropDown {
-  display: flex;
-  gap: 0.2rem;
-  margin: auto;
-}
-
-select {
-  border: none;
-  color: white;
-  background-color: transparent;
-}
-
 #logoContainer {
   margin: 1rem 0;
-}
-
-li > a {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
-
-li > a,
-.languageDropDown,
-.logoFlexElements > p {
-  backdrop-filter: blur(0.25em);
-  border-radius: .75rem;
-}
-
-.nav-link {
-  padding: 1rem 0;
-  display: inline-block;
-  position: relative;
-  opacity: 0.75;
-}
-
-.nav-link:hover {
-  opacity: 0.75;
-}
-
-.nav-link::before {
-  transition: 300ms;
-  height: 3px;
-  content: "";
-  position: absolute;
-  background-color: #FFFFFF;
-}
-
-.nav-link-fade-in::before {
-  width: 0%;
-  bottom: 10px;
-}
-
-.nav-link-fade-in:hover::before {
-  width: 100%;
 }
 
 /*----- Media Querys for Responsive Layout -----*/

@@ -1,22 +1,7 @@
 <nav class="navbar">
   <ul class="navbarElements">
-    <div  class="languageDropDown">
-      <li id="languageIcon">
-        <mat-icon svgIcon="EN_Icon"></mat-icon>
-      </li>
-      <li>
-        <label for="languages"></label>
-        <select name="languages" id="languages">
-          <option value="english">EN</option>
-        </select>
-      </li>
-    </div>
-    <li class="item"><a class="nav-link nav-link-fade-in" href="/skytraders/src">Home</a></li>
-    <li class="item"><a class="nav-link nav-link-fade-in" href="#">About us</a></li>
-    <li class="item"><a class="nav-link nav-link-fade-in" href="#">Testimonials</a></li>
-    <li class="item"><a class="nav-link nav-link-fade-in" href="#">Get Started</a></li>
-    <li class="item"><a class="nav-link nav-link-fade-in" href="#">FAQs</a></li>
-    <li class="item"><a class="nav-link nav-link-fade-in" href="#">Contact</a></li>
+    <app-language-drop-down style="margin: auto 0;"></app-language-drop-down>
+    <app-nav-links></app-nav-links>
   </ul>
     <app-logo></app-logo>
 </nav>

@@ -1,0 +1,51 @@
+.nav-link {
+  padding: 1rem 0;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 0.75;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #FFFFFF;
+}
+
+.nav-link-fade-in::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-fade-in:hover::before {
+  width: 100%;
+}
+
+.links-container {
+  display: flex;
+  gap: 3rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+li > a,
+.language-dropdown-container,
+.logo-flex-elements > p {
+  backdrop-filter: blur(0.25em);
+  border-radius: .75rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .links-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
