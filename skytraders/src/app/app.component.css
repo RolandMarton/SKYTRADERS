@@ -1,8 +1,20 @@
-app-header {
+/*----- Default Settings for whole document -----*/
+
+* {
   color: #FFFFFF;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
+html, body, form, fieldset, table, tr, td, img {
+  margin: 0;
+  padding: 0;
+}
 
+input, button, select, textarea, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
