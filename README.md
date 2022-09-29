@@ -23,7 +23,7 @@ Challenges and Results
   
 Technologies
 - Angular (HTML, Typescript, CSS)
-- Github
+- Starting project on Github
 - Figma
 - IntelliJ IDEA Ultimate
 - Visual Studio Code
@@ -34,6 +34,8 @@ Technologies
 https://user-images.githubusercontent.com/88943189/193032114-b6f54b1b-f3cf-443e-9d1b-e61ee5486fe9.mp4
 
 Challenges and Results
+- Learning AWS & Bitbucket
+- Project is now on Bitbucket also.
 - Fully responsive design for both header and footer
 - Reusable components creation with custom design
 - 3 layouts for different viewports - fully responsive for every mobile devices
