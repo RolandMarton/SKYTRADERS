@@ -86,11 +86,17 @@ li > a,
 }
 
 /*----- Fourth Container - Live Chat -----*/
-.live-chat-button {
-  background: #0590C7;
+#live-chat-button {
+
+  /*background: #0590C7;
+  Original blue color changed to match background
+  - it can be changed if find another cloudy background*/
+
+  background: #FE5032;
   padding: .25rem 1.75rem ;
   border-radius: .4rem;
   border: none;
+  transition: all 1s ease;
 }
 
 a {
@@ -116,6 +122,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+/* Animation for button */
+#live-chat-button:hover,
+#live-chat-button:focus {
+  background-color: #9CCC3C;
 }
 
 /*----- Media Query For Responsive Design -----*/
