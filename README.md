@@ -14,6 +14,7 @@ Challenges and Results
 - Angular Project initalization for future development process (smart/dumb components, testing, routing etc)
 - Header Component (Navbar, Header content, Header)
 - Clean Folder Structure (example: Components folder -> header -> header-content, navbar or Pages folder for different routes in the future)
+- Clean CSS Structure categorized, seperated and added comment seperation to handle growing codebase in CSS files for readability
 - SVG, Images comes from Assets folder
 - SVG Imports with <mat-icon>, MatIconRegistry, DomSanitizer
 - Pure Css structure & animations
