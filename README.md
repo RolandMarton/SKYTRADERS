@@ -27,3 +27,19 @@ Technologies
 - Figma
 - IntelliJ IDEA Ultimate
 - Visual Studio Code
+- Mozilla Firefox Developer Tools / Plugins
+
+# Development - Day 2
+
+https://user-images.githubusercontent.com/88943189/193032114-b6f54b1b-f3cf-443e-9d1b-e61ee5486fe9.mp4
+
+Challenges and Results
+- Fully responsive design for both header and footer
+- Reusable components creation with custom design
+- 3 layouts for different viewports - fully responsive for every mobile devices
+- Restructure CSS files
+- Seperating Angular folders into different components to reuse them, give them inline styles if neccesary
+- Clean Code: Refactor code duplications, categorising components, files, code
+- Semantic Commit Messages
+
+!!! Due to not finding the original background - I made the button color different to match the background but the original blue color is in the codebase if neccessary !!!
