@@ -49,3 +49,7 @@ Challenges and Results
 Making the foundations solid and secure for development in the future - Routes, Tests, Imports, Reusable Components (Dummy, Smart Components) etc.
   
 ![Skytraders - V3](https://user-images.githubusercontent.com/88943189/193121003-9bb9bab2-f4aa-49c0-b50e-0f17d7bcc77b.png)
+
+# Deployed AWS Webpage Link
+  
+https://main.d2u4o98td6wma7.amplifyapp.com/
