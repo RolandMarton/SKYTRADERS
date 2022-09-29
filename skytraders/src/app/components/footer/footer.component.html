@@ -3,16 +3,29 @@
     <app-logo></app-logo>
     <p class="footer-paragraph" id="footer-logo-paragraph">SKYTCY Ltd, belongs to SKYTRADERS group of companies. SKYTRADERS is headquartered in Luxembourg with operational offices in Austria, Cyprus, Poland and Hong Kong. </p>
   </div>
-  <div class="navigation-container">
-    <p class="footer-paragraph" id="navigation-paragraph">Navigation</p>
-    <ul>
-      <li >Home</li>
-    </ul>
+  <div class="right-side-container">
+    <div class="links-container">
+      <div class="navigation-container">
+        <p class="footer-paragraph" id="navigation-paragraph">Navigation</p>
+        <ul class="footer-link-container">
+          <app-nav-links></app-nav-links>
+        </ul>
+      </div>
+      <div class="documents-container">
+        <p class="footer-paragraph" id="documents-paragraph">Documents</p>
+        <ul>
+          <li class="item"><a class="nav-link nav-link-fade-in" href="#">Terms</a></li>
+          <li class="item"><a class="nav-link nav-link-fade-in" href="#">Privacy Policy</a></li>
+          <li class="item"><a class="nav-link nav-link-fade-in" href="#">Imprint</a></li>
+        </ul>
+      </div>
   </div>
-  <div class="documents-container">
-    <p class="footer-paragraph" id="documents-paragraph">Documents</p>
-  </div>
-  <div class="button-container">
-
+    <div class="button-container">
+      <button class="live-chat-button"><a href="#" id="live-chat-paragraph"><mat-icon class="chat-circle" svgIcon="ChatCircle"></mat-icon>Live chat</a></button>
+      <div class="footer-language-dropdown-container">
+        <app-language-drop-down style="list-style-type: none"></app-language-drop-down>
+        <p class="footer-paragraph" style="text-align: right">Address</p>
+      </div>
+    </div>
   </div>
 </footer>

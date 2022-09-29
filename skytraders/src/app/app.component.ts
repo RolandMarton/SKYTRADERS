@@ -14,7 +14,7 @@ export class AppComponent {
     this.matIconRegistry.addSvgIcon("Logo", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Logo.svg"));
     this.matIconRegistry.addSvgIcon("Ellipse", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Ellipse.svg"));
     this.matIconRegistry.addSvgIcon("Heart", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/Heart.svg"));
-
+    this.matIconRegistry.addSvgIcon("ChatCircle", this.domSanitizer.bypassSecurityTrustResourceUrl("./assets/svg/ChatCircle.svg"));
   }
 
 }
