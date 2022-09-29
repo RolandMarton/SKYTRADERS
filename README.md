@@ -53,3 +53,11 @@ Making the foundations solid and secure for development in the future - Routes, 
 # Deployed AWS Webpage Link
   
 https://main.d2u4o98td6wma7.amplifyapp.com/
+
+# Finished Tasks
+- Fully responsive design - Working on mobile devices also
+- Coding in Angular (Reusable components, routing foundations, test possibilities, working gitignore (in and out), assets imports, clean folder structure)
+- Clean Code Principles
+- Semantic Comit History on Github
+- Using Github - Bitbucket (backup github repository - main repository bitbucket) - sync between repos
+- Working CI/CD - Deploy on AWS Amplify
