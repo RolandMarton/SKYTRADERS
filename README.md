@@ -36,6 +36,7 @@ https://user-images.githubusercontent.com/88943189/193032114-b6f54b1b-f3cf-443e-
 Challenges and Results
 - Learning AWS & Bitbucket
 - Project is now on Bitbucket also.
+- Bitbucket - SSH key add for Windows desktop and Linux laptop
 - Fully responsive design for both header and footer
 - Reusable components creation with custom design
 - 3 layouts for different viewports - fully responsive for every mobile devices
