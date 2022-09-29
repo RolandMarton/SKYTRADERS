@@ -45,4 +45,6 @@ Challenges and Results
 - Clean Code: Refactor code duplications, categorising components, files, code
 - Semantic Commit Messages
 
-!!! Due to not finding the original background - I made the button color different to match the background but the original blue color is in the codebase if neccessary !!!
+# Final Version of the Page - Making the foundations solid and secure for development in the future - Routes, Tests, Imports, Reusable Components (Dummy, Smart Components) etc.
+  
+![Skytraders - V3](https://user-images.githubusercontent.com/88943189/193121003-9bb9bab2-f4aa-49c0-b50e-0f17d7bcc77b.png)
