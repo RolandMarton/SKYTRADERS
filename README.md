@@ -61,3 +61,23 @@ https://main.d2u4o98td6wma7.amplifyapp.com/
 - Semantic Comit History on Github
 - Using Github - Bitbucket (backup github repository - main repository bitbucket) - sync between repos
 - Working CI/CD - Deploy on AWS Amplify
+
+# Deploy Script for AWS
+version: 1
+applications:
+- appRoot: skytraders
+  frontend:
+  phases:
+  preBuild:
+  commands:
+  - npm install
+  build:
+  commands:
+  - npm run-script build
+  artifacts:
+  baseDirectory: dist/skytraders
+  files:
+  - '**/*'
+  cache:
+  paths:
+  - node_modules/**/*
